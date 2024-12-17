@@ -1,0 +1,79 @@
+body{
+    background-color: #24353F;
+    margin: 0;
+    height: 75vh;
+}
+
+
+.Login , .signup {
+    background-color: #24353F;
+    padding: 30px;
+    width: 55%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+   
+}
+.Login ,.signup h1{
+  text-align: center;
+    color: #17A2B8;
+    margin-bottom: 40px;
+    
+}
+.Login input{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+/* -------------------------------------------------> sign up */
+.signup input{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+/* -----------------------------------------------------> welome */ 
+.navbar ,.home{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 8%;
+}
+.home{
+    background-color: #24353F !important;
+    
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.home h1 {
+    text-align: center;
+    color: #17A2B8 ;
+    margin-bottom: 10px;
+    font-size: 45px;  
+   
+}
+
+.light {
+text-align: center;
+    height:100% ;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logoutBtn{
+    color: rgb(148, 148, 148);
+}
